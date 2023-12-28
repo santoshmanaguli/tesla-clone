@@ -6,3 +6,37 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.termsAndConditionStyle{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsList{
+  color: white;
+  text-decoration: underline;
+  display: flex;
+}
+
+.btnsStyle{
+  display: block;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.btnDiv{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
