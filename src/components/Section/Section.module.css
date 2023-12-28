@@ -1,0 +1,8 @@
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/public/images/model-y.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
