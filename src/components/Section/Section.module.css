@@ -40,3 +40,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.productTitle{
+  text-align: center;
+  letter-spacing: 1px
+}

@@ -4,31 +4,33 @@ import { Button } from "../Button/Button";
 
 export const Section = (props) => {
   const leftButton = {
-    backgroundColor: 'rgba(255, 255, 255, 0.8)',
+    backgroundColor: "rgba(255, 255, 255, 0.8)",
     color: "black",
     borderRadius: "5px",
-    width: '20%',
-    height: '40px',
-    fontSize: '16px',
-    border: 'none',
+    width: "20%",
+    height: "40px",
+    fontSize: "16px",
+    border: "none",
     fontWeight: 500,
   };
 
   const rightButton = {
-    backgroundColor: 'rgba(34, 34, 34, 0.64)',
+    backgroundColor: "rgba(34, 34, 34, 0.64)",
     color: "#fff",
     borderRadius: "5px",
-    width: '20%',
-    height: '40px',
-    fontSize: '16px',
-    border: 'none',
+    width: "20%",
+    height: "40px",
+    fontSize: "16px",
+    border: "none",
     fontWeight: 500,
   };
 
   return (
     <section className={styles.container} id={props.sectionId}>
-      <h1 className={styles.carTitle}>{props.carTitle}</h1>
-      <p>{props.subTitle}</p>
+      <div className={styles.productTitle}>
+        <h1 className={styles.carTitle}>{props.carTitle}</h1>
+        <p>{props.subTitle}</p>
+      </div>
       <div className={styles.btnsStyle}>
         <div className={styles.btnDiv}>
           <Button styles={leftButton} btnName="Explore Inventory"></Button>
